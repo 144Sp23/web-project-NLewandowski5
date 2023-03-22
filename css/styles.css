@@ -1,0 +1,143 @@
+/*
+Author: Nolan Lewandowski
+Date: 3-21-23
+File name: style.class*/
+/* Mobile viewport */
+/* Global styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e5d9e9;
+}
+
+a {
+  color: #800080;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+/* Header */
+header {
+  background-color: #EFE8D8;
+  text-align: center;
+}
+
+header img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  padding: 20px;
+}
+
+nav {
+  background-color: #EFE8D8;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  border-top: 1px solid #800080;
+  padding: 10px 0;
+}
+
+nav li:first-child {
+  border-top: none;
+}
+
+nav a {
+  color: #800080;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Body */
+main {
+  background-color: #e5d9e9;
+  padding: 20px;
+}
+
+main img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  padding: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: #EFE8D8;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Tablet viewport */
+@media screen and (min-width: 768px) {
+  /* Header */
+  header {
+    background-color: #EFE8D8;
+    display: flex;
+    align-items: center;
+  }
+
+  header img {
+    max-width: 50%;
+    height: auto;
+    padding: 20px;
+  }
+
+  nav {
+    background-color: #EFE8D8;
+    display: flex;
+    justify-content: center;
+  }
+
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  nav li {
+    border-left: 1px solid #800080;
+    border-top: none;
+    padding: 10px;
+  }
+
+  nav li:first-child {
+    border-left: none;
+  }
+
+  /* Body */
+  main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  main img {
+    flex: 1 1 300px;
+    margin: 0;
+    padding: 20px;
+  }
+
+  main p {
+    flex: 1 1 300px;
+    margin: 0;
+    padding: 20px;
+  }
+}
+
+
